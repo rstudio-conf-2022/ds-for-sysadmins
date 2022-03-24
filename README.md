@@ -1,4 +1,4 @@
-WORKSHOP_TITLE
+How Data Science with R works for Systems Administrators
 ================
 
 ### rstudio::conf 2022
