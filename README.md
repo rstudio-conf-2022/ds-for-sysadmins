@@ -25,7 +25,9 @@ can remove these instructions from the README.
 
 ## Overview
 
-ABSTRACT
+Attendees will learn about RStudio pro product architectures, how to install and manage extension packages in the local environment, as well as how to manage these packages on your network. You’ll also learn about the challenges that face developers and administrators in scaling environments and optimising R code. You’ll uncover many of the R internal systems that govern the way that it works, as well as the mechanisms employed by RStudio’s pro offerings that harness and elevate those systems in production settings.
+Admins will learn to better understand and serve their data scientist customers and data scientists will learn about the complexity and constraints of running production R environments.
+
 
 ## Learning objectives
 
