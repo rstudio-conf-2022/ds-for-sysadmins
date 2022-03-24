@@ -35,7 +35,7 @@ LEARNING_OBJECTIVES
 
 ## Is this course for me?
 
-THREE_QUESTIONS
+System administrators seeking to better understand R and RStudio’s pro products as well as data scientists, who need to take a more active role in the administration of R-based environments.
 
 ## Prework
 
