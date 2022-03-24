@@ -3,7 +3,7 @@ How Data Science with R works for Systems Administrators
 
 ### rstudio::conf 2022
 
-by INSTRUCTOR_NAME
+by Alex Gold
 
 -----
 
