@@ -1,5 +1,4 @@
-HowMark is on the solution engineering team at RStudio.
-Prior to RSudio, Mark Sellors was the Head of Data Engineering at Mango Solutions as well as the author of the ‘Field Guide to the R Ecosystem’. He has more than a decade’s experience working with analytical computing environments, DevOps and Unix/Linux.Data Science with R works for Systems Administrators
+How Data Science with R works for Systems Administrators
 ================
 
 ### rstudio::conf 2022
@@ -73,7 +72,7 @@ RSTUDIO.CLOUD ACCOUNT, ETC.\]
 
 ## Instructor
 
-\[ADD INSTRUCTOR BIO\]
+Alex Gold is ...
 
 -----
 
