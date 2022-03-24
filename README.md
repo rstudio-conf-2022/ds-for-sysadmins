@@ -31,7 +31,7 @@ Admins will learn to better understand and serve their data scientist customers 
 
 ## Learning objectives
 
-LEARNING_OBJECTIVES
+[ADD AN ITEMIZED LIST OF LEARNING OBJECTIVES.]
 
 ## Is this course for me?
 
