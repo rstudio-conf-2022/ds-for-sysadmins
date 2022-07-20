@@ -1,0 +1,4 @@
+dash
+pandas
+dash-bootstrap-components
+rsconnect-python
