@@ -68,7 +68,7 @@ options(repos = c(CRAN = "https://cran.r-project.org"))
 
 ```
 install.packages("rlog")
-```3-5
+```
 
 # 5. `.libPaths()`
 
