@@ -1,5 +1,5 @@
 # Let's add a bioconductor repo
-# See if you can us the rspm cli 
+# See if you can use the rspm cli 
 # to identify the 2 commands and 2 arguments needed
 #1.
 
