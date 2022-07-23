@@ -1,0 +1,69 @@
+---
+title: "Untitled"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+params:
+  character:
+    value: "Luke Skywalker"
+    input: select
+    choices: starwars$name
+  
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(tidyverse)
+library(LaCroixColoR)
+
+palette <- lacroix_palette("Pamplemousse", type = "continuous", n = 10)
+character <- starwars %>% filter(name == params$character)
+height <- character %>%  pull(height)
+mass <- character %>%  pull(mass)
+
+```
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Chart A
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+starwars %>% 
+  count(homeworld) %>%
+  top_n(10) %>% 
+  ggplot() +
+  geom_col(aes(x = reorder(homeworld, n), y = n, fill = homeworld))+
+  coord_flip() +
+  theme_minimal() +
+  xlab("Home World") +
+  ylab("Number of characters")+
+  scale_fill_manual(values = palette)
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### `r params$character` Height {.value-box}
+
+```{r}
+renderValueBox({
+  valueBox(
+    value = height,
+    icon = "fa-area-chart",
+  )
+})
+```
+
+### `r params$character` Mass {.value-box}
+
+```{r}
+renderValueBox({
+  valueBox(
+    value = mass,
+    icon = "fa-area-chart",
+  )
+})
+```
+
