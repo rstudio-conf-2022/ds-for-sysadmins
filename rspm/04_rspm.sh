@@ -1,5 +1,4 @@
-# Let's add a git build to our curated repo 
-# the command below is incomplete, 
+# Let's add a git build to our curated repo  
 rspm create source --name=git --type=git
 
 rspm subscribe --repo=curated --source=git
