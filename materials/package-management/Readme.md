@@ -48,7 +48,8 @@ sudo rstudio-server restart
 
 # 2. Exploring the R installation 
 
-1. How many R packges have been pre-installed ? 
+1. How many R packages have been pre-installed ? 
+2. Where have they been installed into ? 
 2. What type/category of R packages are those ? 
 
 ```
