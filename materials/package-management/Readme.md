@@ -109,7 +109,7 @@ NB: You will find the hint on which OS packages need to be installed for `curl` 
 
 # 7. `renv` Quick glance
 
-Let's assume we want a code a colleague has developed. We want to make sure we use exact the same version of R packgaes. 
+Let's assume we want a code a colleague has developed. We want to make sure we use exact the same version of R packages. 
 
 First, let's create a new directory in the RStudio Terminal and move into there
 
