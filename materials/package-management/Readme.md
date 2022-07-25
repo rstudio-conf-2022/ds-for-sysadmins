@@ -109,5 +109,27 @@ NB: You will find the hint on which OS packages need to be installed for `curl` 
 
 # 7. `renv` Quick glance
 
-We most likely will not have much time but 
+Let's assume we want a code a colleague has developed. We want to make sure we use exact the same version of R packgaes. 
 
+First, let's create a new directory in the RStudio Terminal and move into there
+
+```
+mkdir test-renv && cd test-renv
+```
+
+Now, let's get the code and the `renv.lock` file
+
+```
+wget https://raw.githubusercontent.com/rstudio-conf-2022/ds-for-sysadmins/main/materials/package-management/test/code.R
+https://raw.githubusercontent.com/rstudio-conf-2022/ds-for-sysadmins/main/materials/package-management/test/renv.lock
+```
+
+In the R console or in the File Browser we now set the working directory to `test-renv`, after which we simply can run 
+
+```
+renv::restore()
+```
+
+to restore all needed R packages in their very specific version.
+
+Once done, check `sessionInfo()` and comopare with your neighbour. 
