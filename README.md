@@ -31,7 +31,7 @@ Admins will learn to better understand and serve their data scientist customers 
 
 ## Learning objectives
 
-[ADD AN ITEMIZED LIST OF LEARNING OBJECTIVES.]
+How to use RStudio’s Pro Products to administer data science at scale.
 
 ## Is this course for me?
 
@@ -39,10 +39,7 @@ System administrators seeking to better understand R and RStudio’s pro product
 
 ## Prework
 
-\[ADD INFORMATION YOU WANT LEARNERS TO HAVE / STEPS THEY WANT THEM TO
-COMPLETE PRIOR TO THE WORKSHOP. THIS COULD BE A LINK TO A THREAD ON
-RSTUDIO COMMUNITY, PACKAGE INSTALL INSTRUCTIONS, HOW TO GET AN
-RSTUDIO.CLOUD ACCOUNT, ETC.\]
+None required.
 
 ## Schedule
 
@@ -72,7 +69,7 @@ RSTUDIO.CLOUD ACCOUNT, ETC.\]
 
 ## Instructor
 
-Alex Gold is ...
+Alex Gold is the Senior Manager of RStudio's Solutions ENgineering team.
 
 -----
 
