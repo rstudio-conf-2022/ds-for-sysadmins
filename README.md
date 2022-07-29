@@ -69,7 +69,7 @@ None required.
 
 ## Instructor
 
-Alex Gold is the Senior Manager of RStudio's Solutions ENgineering team.
+Alex Gold is the Senior Manager of RStudio's Solutions Engineering team.
 
 -----
 
